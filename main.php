@@ -9,12 +9,24 @@ oil - 50ml
 Salt - a couple
 */
 
-function cookAnOmlet(int $eggs, int $milk, int $zucchini, int $shrimp, int $oil, int $salt, string $horoshieSlova)
+function cookAnOmlet
+(int $eggs,
+ int $milk,
+ int $zucchini,
+ int $shrimp, 
+ int $oil, 
+ int $salt, 
+ string $wishes)
 {
-    echo "<br>fry the shrimp until almost cooked, <br> add zucchini and fry for a few minutes,<br> mix the eggs and milk,<br> salt and add to the shrimp <br> wait 5 minutes";
+    echo
+    "1 fry the $shrimp until almost cooked, 
+    <br> 2 add $zucchini and fry for a few minutes,
+    <br> 3 mix the $eggs and $milk,
+    <br> 4 $salt and add to the $shrimp,
+    <br> 5 wait 5 minutes and say $wishes";
     /*
 pour the oil into the pan, wash the shrimp and fry until tender, stirring, cut the zucchini and add to the shrimp, 
 fry for 2-3 minutes, mix the eggs and milk, salt and pour the shrimp and wait 5 minutes. Bon Appetit    */
 }
-cookAnOmlet(eggs: 3, milk: 150, zucchini: 1, shrimp:100, oil: 50, salt: 5, horoshieSlova'biloVkuso');
+cookAnOmlet(3, 150,  1, 100,  50,  5, 'Bon Appetit');
 ?>
